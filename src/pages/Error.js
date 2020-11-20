@@ -5,9 +5,10 @@ const Error = () => {
   return (
     <div className="error-div">
       <h2>This is a missing route.</h2>
-      <button className="btn-error">
-        <Link to="/">Go Back Home</Link>
-      </button>
+
+      <Link to="/" className="btn-error">
+        Go Back Home
+      </Link>
     </div>
   );
 };

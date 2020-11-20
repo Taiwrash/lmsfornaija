@@ -192,7 +192,6 @@ header {
   margin: 20px 20px 0;
 }
 
-.category button,
 .btn-error {
   margin: 0 5px;
   width: 50%;
@@ -203,6 +202,22 @@ header {
   text-transform: uppercase;
   border-radius: 3px;
   transition: linear 0.3s;
+  display: inline-block;
+  text-align: center;
+}
+
+.category button {
+  margin: 0 5px;
+  width: 50%;
+  border: 2px solid #0ca48f;
+  outline: none;
+  height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: linear 0.3s;
+  display: inline-block;
+  text-align: center;
 }
 .category button:hover,
 .btn-error:hover {
@@ -377,7 +392,7 @@ header {
     margin: 20px 20px 0;
   }
 
-  .category button {
+  .category a {
     margin: 0 5px;
     width: 50%;
     border: 2px solid #0ca48f;
@@ -387,8 +402,10 @@ header {
     text-transform: uppercase;
     border-radius: 3px;
     transition: linear 0.3s;
+    display: inline-block;
+    text-align: center;
   }
-  .category button:hover {
+  .category a:hover {
     background-color: #0ca48f;
     transform: scale(1.18);
     color: #ffffff;

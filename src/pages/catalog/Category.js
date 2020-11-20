@@ -1,6 +1,6 @@
 import React from "react";
 
-const Category = ({ filterCategory, allCate }) => {
+const Category = ({ allCate, filterCategory }) => {
   return (
     <>
       <div className="category">

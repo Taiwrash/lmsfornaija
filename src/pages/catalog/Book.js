@@ -19,7 +19,6 @@ const Book = ({ item }) => {
               <button onClick={() => setText(!text)} className="readmore-btn">
                 {!text ? "Read More" : "Read Less"}
               </button>
-
               <button className="detail-btn">
                 <Link to={`/book/${book.id}`}>more details</Link>
               </button>
