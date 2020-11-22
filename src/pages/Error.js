@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Loader from "./Loader";
 
 const Error = () => {
   return (
@@ -9,6 +10,7 @@ const Error = () => {
       <Link to="/" className="btn-error">
         Go Back Home
       </Link>
+      <Loader />
     </div>
   );
 };
